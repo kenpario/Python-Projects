@@ -1,0 +1,12 @@
+price1 = 398987.256
+price2 = -98798.52
+price3 = 12.265853
+print(f"Price 1: ${price1:.2f}")
+print(f"Price 2: ${price2:.1f}")
+print(f"Price 3: ${price3:.1f}")
+print(f"Price 1: ${price1:10}")
+print(f"Price 2: ${price2:10}")
+print(f"Price 3: ${price3:10}")
+print(f"Price 1: ${price1:+>10,}")
+print(f"Price 2: ${price2:<10,}")
+print(f"Price 3: ${price3:^10}")
