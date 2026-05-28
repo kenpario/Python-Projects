@@ -1,0 +1,15 @@
+from student import Student
+
+student1 = Student("Michael", 15, 1523, "C")
+student2 = Student("Franklin", 15, 1522, "B")
+print(student1.name)
+print(student1.age)
+print(student1.sid)
+print(student1.avg_grade)
+print(Student.class_year)
+print(student2.name)
+print(student2.age)
+print(student2.sid)
+print(student2.avg_grade)
+print(Student.class_year)
+print(Student.num_students)
