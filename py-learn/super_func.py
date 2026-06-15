@@ -1,5 +1,6 @@
 import math
 
+
 class Shape:
     def __init__(self, color, filled):
         self.color = color
@@ -13,6 +14,7 @@ class Circle(Shape):
     def __init__(self, color, filled, radius):
         super().__init__(color, filled)
         self.radius = radius
+
     def describe(self):
         super().describe()
         print(f"It is a circle with area of  {round(math.pi * self.radius ** 2, 2)}.")

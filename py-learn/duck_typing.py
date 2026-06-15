@@ -1,0 +1,28 @@
+class Animal:
+    alive = True
+
+
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+
+class Cat(Animal):
+    def speak(self):
+        print("Meow!")
+
+
+class Car:
+    def speak(self):
+        print("Beep!")
+
+    alive = False
+
+
+animals = [Dog(), Cat(), Car()]
+
+for animal in animals:
+    animal.speak()
+    print(
+        f"Is {animal.__class__.__name__} alive? {getattr(animal, 'alive', 'Unknown')}"
+    )
